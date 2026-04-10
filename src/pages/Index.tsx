@@ -351,7 +351,7 @@ const Index = () => {
       </section>
 
       {/* CTA Section */}
-      <section id="cta" className="py-32 px-6">
+      <section id="cta" className="px-6 py-3">
         <div className="max-w-4xl mx-auto text-center">
           <div
             className={`transition-all duration-1000 ${visibleSections["cta"] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
