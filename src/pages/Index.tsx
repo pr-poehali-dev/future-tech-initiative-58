@@ -81,18 +81,18 @@ const Index = () => {
                 </span>
               </div>
               <h1 className="text-6xl lg:text-7xl font-display font-black leading-tight mb-8 tracking-tighter">
-                <span className="bg-gradient-to-br from-white via-white to-accent/40 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-br from-white via-white to-accent/40 bg-clip-text text-green-50">
                   Живи чисто.
                 </span>
                 <br />
-                <span className="text-accent">Живи свободно.</span>
+                <span className="text-teal-300">Живи свободно.</span>
               </h1>
               <p className="text-xl text-white/80 leading-relaxed mb-10 max-w-xl font-light">
                 Избавься от вредных привычек раз и навсегда. Наша система поддержки поможет тебе выстроить
                 здоровый образ жизни — шаг за шагом, без срывов и стресса.
               </p>
               <div className="flex gap-4 mb-12 flex-col sm:flex-row">
-                <button className="group px-8 py-4 bg-gradient-to-r from-accent to-accent/90 text-black rounded-full hover:shadow-2xl hover:shadow-accent/50 transition-all font-semibold text-lg flex items-center gap-3 justify-center">
+                <button className="group px-8 py-4 from-accent to-accent/90 rounded-full hover:shadow-2xl hover:shadow-accent/50 transition-all font-semibold text-lg flex items-center gap-3 justify-center text-[#000000] bg-[#ffffff]">
                   Начать путь
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition" />
                 </button>
@@ -122,7 +122,7 @@ const Index = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-accent/30 via-transparent to-transparent rounded-3xl blur-3xl animate-pulse" />
               <div className="relative z-10 w-72 h-72 rounded-full border-2 border-accent/40 flex items-center justify-center bg-black/40 backdrop-blur-sm">
                 <div className="text-center">
-                  <div className="text-7xl mb-4">🌿</div>
+                  <div className="text-7xl mb-4"></div>
                   <div className="text-accent font-bold text-xl">Новая версия тебя</div>
                   <div className="text-white/60 text-sm mt-2">начинается сегодня</div>
                 </div>
